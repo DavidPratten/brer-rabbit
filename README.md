@@ -45,16 +45,17 @@ Auto scheduled tasks scheduled on: [Project Start Date]
 Duration is entered in: [Days]  
 Work is entered in: [Hours]  
 Default task type: [Fixed Units]  
-☐ New tasks are effort driven  
-☐ Autolink inserted or moved tasks  
-☐ Split in-progress tasks  
-☐ Update Manually Scheduled tasks when editing links  
-☐ Tasks will always honor their constraint dates  
-☑ Show that scheduled tasks have estimated durations  
-☑ New scheduled tasks have estimated durations  
-☐ Keep task on nearest working day when changing to Automatically Scheduled mode  
-☐ Show task schedule warnings  
-☐ Show task schedule suggestions  
+- ☐ New tasks are effort driven  
+- ☐ Autolink inserted or moved tasks  
+- ☐ Split in-progress tasks  
+- ☐ Update Manually Scheduled tasks when editing links  
+- ☐ Tasks will always honor their constraint dates  
+- ☑ Show that scheduled tasks have estimated durations  
+- ☑ New scheduled tasks have estimated durations  
+- ☐ Keep task on nearest working day when changing to Automatically Scheduled mode  
+- ☐ Show task schedule warnings  
+- ☐ Show task schedule suggestions  
+
 37: You are not using MS Project 2010 or 2013: Your mileage may vary.  
 47: Recommend the following settings under Project > Project Information  
 Schedule From [Project Start Date]  
