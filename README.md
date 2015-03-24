@@ -33,11 +33,8 @@ To upgrade to the latest version of PMQu, follow these steps to remove the old v
 * Proceed to install PMQu as above for first time installers.
 Dagre-d3 is a [D3](http://d3js.org)-based renderer for [dagre](https://github.com/cpettitt/dagre).
 
-Health Checks (with their check numbers)  
-Checks may be excluded for individual tasks by listing the unwanted check numbers, comma separated, in a "Health Check Exclusions" custom Text Column. Checks may be turned off for the whole project by listing the check numbers in this column in the Project Summary Task.  
-  
-Project  
-  
+#Quality Checks   
+##Project  
 33: Project Summary Task is visible  
 36: Recommend the following settings under File > Options > Schedule  
 - New tasks created: [Auto Scheduled]  
@@ -58,15 +55,15 @@ Project
 
 37: You are not using MS Project 2010 or 2013: Your mileage may vary.  
 47: Recommend the following settings under Project > Project Information  
-Schedule From [Project Start Date]  
-Task Identity  
-  
+- Schedule From [Project Start Date]  
+
+##Task Identity  
 19: Tasks with Duplicate Names  
 40: Task has blank name  
 44: Task with duplicate 'Permanent ID' field  
 49: Permanent ID field must be 1 or greater  
-WBS/PBS  
-  
+
+## Work Breakdown Structure (WBS) / Product Breakdown Structure (PBS)  
 13: Summary without Start or Finish milestones  
 23: Start Milestone is not the predecessor of its siblings  
 24: Finish Milestone is not the successor of its siblings  
@@ -74,8 +71,8 @@ WBS/PBS
 32: Project has more than one top level task (You may add a 'Status Date Milestone' at Outline Level 1 with Start No Earlier Than constraint)  
 41: Only this Summary Task's Start Milestone's name may begin with 'Start '  
 42: Only this Summary Task's Finish Milestone's name may begin with 'Finish '  
-Network  
-  
+
+## Network  
 2: Summary with Successors  
 3: Summary with Predecessors  
 10: Tasks/Milestones without predecessor  
@@ -88,14 +85,14 @@ Network
 48: Use an Interim Milestone as the predecessor or successor.  
 51: Start Milestone has a successor which is not a sibling  
 52: Finish Milestone has a predecessor which is not a sibling  
-Resources  
-  
+
+## Resources  
 1: Summary with Resource Assignments  
 9: Task Type other than Fixed Units  
 14: Milestone with Resource Assignments  
 50: Task is Effort Driven.  
-Scheduling  
-  
+
+## Scheduling  
 4: Task with elapsed time > 30 days  
 5: Milestone with constraint type other than ASAP, MSO, SNET, or FNLT  
 6: Task with constraint type other than ASAP. Use Deadlines or put constraint on a milestone  
@@ -106,13 +103,17 @@ Scheduling
 28: Unmet constraint generating negative slack  
 29: Task has more than 30 days slack  
 35: A successor of Status Date Milestone has less than 10 days slack  
-Progress  
-  
+
+## Progress  
 21: Tasks with Start date before Status Date with no Actual Start date  
 22: Tasks with Finish date before Status Date with no Actual Finish date  
 25: Actual Start is after Status Date  
 26: Actual Finish is after Status Date  
 30: Milestone %Complete must be 0% or 100%  
-## License
+
+# FAQ
+##How to turn off a quality check
+Checks may be excluded for individual tasks by listing the unwanted check numbers, comma separated, in a "Health Check Exclusions" custom Text Column. Checks may be turned off for the whole project by listing the check numbers in this column in the Project Summary Task.  
+# License
 
 PMQu is licensed under the terms of the MIT License. See [LICENSE](/cpettitt/dagre/blob/master/LICENSE) for details.
