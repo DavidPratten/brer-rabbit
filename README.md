@@ -40,11 +40,11 @@ Project
   
 33: Project Summary Task is visible  
 36: Recommend the following settings under File > Options > Schedule  
-New tasks created: [Auto Scheduled]  
-Auto scheduled tasks scheduled on: [Project Start Date]  
-Duration is entered in: [Days]  
-Work is entered in: [Hours]  
-Default task type: [Fixed Units]  
+- New tasks created: [Auto Scheduled]  
+- Auto scheduled tasks scheduled on: [Project Start Date]  
+- Duration is entered in: [Days]  
+- Work is entered in: [Hours]  
+- Default task type: [Fixed Units]  
 - ☐ New tasks are effort driven  
 - ☐ Autolink inserted or moved tasks  
 - ☐ Split in-progress tasks  
