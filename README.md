@@ -6,7 +6,7 @@ PMQu is an open source project information quality checker for [MS Project](http
 
 # Contents
 - [Installing](#installing)
-    - [First time Installation](#first_time_installation) 
+    - [First time Installation](#first-time-installation) 
     - Upgrade Instructions
 - sdsd
 - sdsd
