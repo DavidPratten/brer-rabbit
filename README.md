@@ -5,8 +5,8 @@ Repo for exploring github.
 PMQu is an open source project information quality checker for [MS Project](https://products.office.com/en-us/Project)
 
 # Contents
-- [Installing](#Installing)
-    - [First time Installation](#First_time_Installation) 
+- [Installing](#installing)
+    - [First time Installation](#first_time_installation) 
     - Upgrade Instructions
 - sdsd
 - sdsd
