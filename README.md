@@ -2,7 +2,7 @@
 Repo for exploring github.
 
 # PMQu
-PMQu is an open source project information quality checker for [MS Project](https://products.office.com/en-us/Project)
+PMQu is an open-source project information quality checker for [MS Project](https://products.office.com/en-us/Project)
 
 # Contents
 - [Installing](#installing)
@@ -12,8 +12,7 @@ PMQu is an open source project information quality checker for [MS Project](http
 - sdsd
 - sdfsdf
 
-
-# Your involvement will sustain PMQu
+# PMQu is sustained by your interest
 * Download and use PMQu in your project or PMO.
 * Log an issue or a feature request.
 * Download the source, add a feature or bugfix and send a pull request.
@@ -34,86 +33,85 @@ To upgrade to the latest version of PMQu, follow these steps to remove the old v
 * Proceed to install PMQu as above for first time installers.
 Dagre-d3 is a [D3](http://d3js.org)-based renderer for [dagre](https://github.com/cpettitt/dagre).
 
-# Table of Contents
-
-* [Demos](#demos)
-* [Installing](#installing)
-    * [NPM Install](#npm-install)
-    * [Bower Install](#bower-install)
-    * [Browser Scripts](#browser-scripts)
-    * [Source Build](#source-build)
-* [Bug Tracking](/cpettitt/dagre/issues)
-* [[Contributing]]
-* [License](#license)
-
-## Demos
-
-Try our [interactive demo](http://cpettitt.github.com/project/dagre-d3/latest/demo/interactive-demo.html)!
-
-Or some of our other examples:
-
-* [Sentence Tokenization](http://cpettitt.github.com/project/dagre-d3/latest/demo/sentence-tokenization.html)
-* [TCP State Diagram](http://cpettitt.github.com/project/dagre-d3/latest/demo/tcp-state-diagram.html)
-* [ETL Visualization](http://cpettitt.github.io/project/dagre-d3/latest/demo/etl-status.html)
-* [Style Attributes](http://cpettitt.github.io/project/dagre-d3/latest/demo/style-attrs.html)
-* [Built-in Shapes](http://cpettitt.github.io/project/dagre-d3/latest/demo/shapes)
-* [Built-in Arrows](http://cpettitt.github.io/project/dagre-d3/latest/demo/arrows.html)
-* [User-defined Shapes and Arrows](http://cpettitt.github.io/project/dagre-d3/latest/demo/user-defined.html)
-* [Tooltip on Hover](http://cpettitt.github.io/project/dagre-d3/latest/demo/hover.html)
-* [Graph Story Board](http://cpettitt.github.io/project/dagre-d3/latest/demo/graph-story-board.html)
-
-These demos and more can be found in the `demo` folder of the project. Simply
-open them in your browser - there is no need to start a web server.
-
-## Installing 
-
-### NPM Install
-
-Before installing this library you need to install the [npm package manager](http://npmjs.org/).
-
-To get dagre-d3 from npm, use:
-
-    $ npm install dagre-d3
-
-### Bower Install
-
-You can install dagre-d3 with bower using the following command:
-
-    $ bower install dagre-d3
-
-then, include the dependencies in the correct order in your HTML file: 
-
-    <script src="bower_components/lodash/dist/lodash.js"></script>
-    <script src="bower_components/graphlib/dist/graphlib.core.js"></script>
-    <script src="bower_components/dagre/dist/dagre.core.js"></script>
-    <script src="bower_components/dagre-d3/dist/dagre-d3.core.js"></script>
-
-### Browser Scripts
-
-You can get the latest browser-ready scripts:
-
-* [dagre-d3.js](http://cpettitt.github.io/project/dagre-d3/latest/dagre-d3.js)
-* [dagre-d3.min.js](http://cpettitt.github.io/project/dagre-d3/latest/dagre-d3.min.js)
-
-You can also get the scripts for a particular version. For example, to get v0.3.0:
-
-* [dagre-d3.js](http://cpettitt.github.io/project/dagre-d3/v0.3.0/dagre-d3.js)
-* [dagre-d3.min.js](http://cpettitt.github.io/project/dagre-d3/v0.3.0/dagre-d3.min.js)
-
-
-Look at the [releases page](https://github.com/cpettitt/dagre-d3/releases) to find a list of versions.
-
-### Source Build
-
-Before building this library you need to install the [npm package manager](http://npmjs.org/).
-
-Check out this project and run this command from the root of the project:
-
-    $ make dist
-
-This will generate `dagre-d3.js` and `dagre-d3.min.js` in the `dist` directory
-of the project.
-
+Health Checks (with their check numbers)  
+Checks may be excluded for individual tasks by listing the unwanted check numbers, comma separated, in a "Health Check Exclusions" custom Text Column. Checks may be turned off for the whole project by listing the check numbers in this column in the Project Summary Task.  
+  
+Project  
+  
+33: Project Summary Task is visible  
+36: Recommend the following settings under File > Options > Schedule  
+New tasks created: [Auto Scheduled]  
+Auto scheduled tasks scheduled on: [Project Start Date]  
+Duration is entered in: [Days]  
+Work is entered in: [Hours]  
+Default task type: [Fixed Units]  
+☐ New tasks are effort driven  
+☐ Autolink inserted or moved tasks  
+☐ Split in-progress tasks  
+☐ Update Manually Scheduled tasks when editing links  
+☐ Tasks will always honor their constraint dates  
+☑ Show that scheduled tasks have estimated durations  
+☑ New scheduled tasks have estimated durations  
+☐ Keep task on nearest working day when changing to Automatically Scheduled mode  
+☐ Show task schedule warnings  
+☐ Show task schedule suggestions  
+37: You are not using MS Project 2010 or 2013: Your mileage may vary.  
+47: Recommend the following settings under Project > Project Information  
+Schedule From [Project Start Date]  
+Task Identity  
+  
+19: Tasks with Duplicate Names  
+40: Task has blank name  
+44: Task with duplicate 'Permanent ID' field  
+49: Permanent ID field must be 1 or greater  
+WBS/PBS  
+  
+13: Summary without Start or Finish milestones  
+23: Start Milestone is not the predecessor of its siblings  
+24: Finish Milestone is not the successor of its siblings  
+27: Summary has fewer than two children  
+32: Project has more than one top level task (You may add a 'Status Date Milestone' at Outline Level 1 with Start No Earlier Than constraint)  
+41: Only this Summary Task's Start Milestone's name may begin with 'Start '  
+42: Only this Summary Task's Finish Milestone's name may begin with 'Finish '  
+Network  
+  
+2: Summary with Successors  
+3: Summary with Predecessors  
+10: Tasks/Milestones without predecessor  
+11: Tasks/Milestones without successor  
+31: Dependency is redundant  
+38: 'Status Date Milestone' has a predecessor.  
+39: 'Status Date Milestone' has a successor that is not floating, it has already started.  
+43: Dependency may not be with self, not with parent Tasks, nor with child Tasks  
+46: Tasks with common predecessors suggests that an Interim Milestone is missing  
+48: Use an Interim Milestone as the predecessor or successor.  
+51: Start Milestone has a successor which is not a sibling  
+52: Finish Milestone has a predecessor which is not a sibling  
+Resources  
+  
+1: Summary with Resource Assignments  
+9: Task Type other than Fixed Units  
+14: Milestone with Resource Assignments  
+50: Task is Effort Driven.  
+Scheduling  
+  
+4: Task with elapsed time > 30 days  
+5: Milestone with constraint type other than ASAP, MSO, SNET, or FNLT  
+6: Task with constraint type other than ASAP. Use Deadlines or put constraint on a milestone  
+7: Summary with constraint type other than ASAP  
+8: Manually scheduled  
+12: Tasks without duration specified  
+20: Tasks with sub-day duration  
+28: Unmet constraint generating negative slack  
+29: Task has more than 30 days slack  
+35: A successor of Status Date Milestone has less than 10 days slack  
+Progress  
+  
+21: Tasks with Start date before Status Date with no Actual Start date  
+22: Tasks with Finish date before Status Date with no Actual Finish date  
+25: Actual Start is after Status Date  
+26: Actual Finish is after Status Date  
+30: Milestone %Complete must be 0% or 100%  
 ## License
 
 PMQu is licensed under the terms of the MIT License. See [LICENSE](/cpettitt/dagre/blob/master/LICENSE) for details.
